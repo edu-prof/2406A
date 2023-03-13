@@ -54,3 +54,36 @@ fun main() {
     
 }
 //---------------------------------------------------------------------------
+fun main() {
+     // Concatenação
+     // 
+     // 
+     /*
+     var tartaruga = "Michael Havckson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga) 
+    
+    var leclerc = 2 
+    var alonso = 1
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    
+    var nome = "Eduardo" 
+    var idade = 19 
+    var cidade = "São Paulo" 
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    
+    // Exercício - ◘ Faça um diálogo de no mínimo 15 linhas, nele deve conter,
+    // os nomes de quem estiver falando de forma concatenada usando variáveis 
+    // ◘ Usem a criatividade ☺
+    // 
+    // 
+    
+    
+}
+//-------------------------------------------------------------------------------------------
