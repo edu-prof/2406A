@@ -156,3 +156,122 @@ fun main() {
     println("||************************************************||")
 }
 //----------------------------------------------------------------------------------------
+fun main() {
+    
+    
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matemáticos 
+    // como resultado do cálculo de duas variáveis (contendo resultado para +, -, /, *, e %),
+    // contendo também uma interface simples e bem bonita :)
+    // 
+    /*
+    var n1 = 7
+    var n2 = 3
+    
+    println("||************ Minha Calculadora yee ☺ ***********||")
+    println("||************************************************||")
+    println("||********_______******************_______********||")
+    println("||************************************************||")
+    println("||********       ******************       ********||")
+    println("||********       ******************       ********||")
+    println("||************************************************||")
+    println("||*********************  *************************||")
+    println("||*********************  *************************||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***   ************************************   ***||")
+    println("||***                                          ***||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***************** Bem Vindos ☺ *****************||")
+    println("||** Soma entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 + n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Subtração entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 - n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Multiplicação entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 * n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Divisão entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 / n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Módulo entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 % n2)+"*********************************||")
+    println("||************************************************||") 
+    */
+    
+    // Operadores Relacionais 
+    // 
+    // ==  ->  igual a...
+    // !=  ->  diferente de... 
+    // !   ->  negando valor
+    // >   ->  maior que... 
+    // <   ->  menor que... 
+    // >=  ->  maior ou igual a...
+    // <=  ->  menor ou igual a...  
+    // 
+    // 
+    // ++  ->  adiciona 1 a um valor 
+    // --  ->  subtrai 1 de um valor
+    // +=  ->  adiciona um determinado valor a um valor 
+    // -=  ->  subtrai um determinado valor de um valor 
+    /*
+    var clauldetty = 50
+    var josias = 30 
+    var berennice = 90  
+    var bernnadetthy = 80
+    
+    println(clauldetty)
+    clauldetty++
+    println(clauldetty)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berennice)
+    berennice += clauldetty
+    println(berennice)
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias
+    println(bernnadetthy)
+    */
+    
+    // Condições  if..else
+    
+    // se... senão  
+    // 
+    // estrutura: 
+    // 
+    // if..else simples
+    // 
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    /*
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("Luz acesa")
+    }else{
+        println("Luz apagada")
+    }
+    */
+    var fome = true 
+    
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+    }
+    
+    
+    
+    
+    
+    
+}
+//-----------------------------------------------------------------
