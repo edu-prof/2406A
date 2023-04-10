@@ -563,3 +563,41 @@ fun main() {
     
 }
 //-----------------------------------------------------------------------------------
+
+fun main() {
+    /*
+    var mes = 5  
+    
+        when(mes){
+        1 -> {println("Lisboa")}
+        2 -> {println("Nova York")}
+        3 -> {println("Rio de Janeiro")}
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")} 
+        6 -> {println("Miwaukee")}
+        7 -> {println("Barcelona")} 
+        8 -> {println("Springfield")}
+        9 -> {println("Los Pollos Hermanos")}
+        10 -> {println("Elmore")}
+        11 -> {println("Toronto")}
+        12 -> {println("Seoul")}
+        else -> {println("Acordou")}
+    } 
+        */
+        //Exercício -> Escreva um programa em Kotlin que declare uma variável chamada 
+        //"diaSemana" do tipo String, que represente um dia da semana. Em seguida, utilize a 
+        //declaração "when" para exibir uma mensagem na tela informando se o dia da semana é
+        //um dia útil ou um final de semana.
+        //
+        
+    var diaSemana = "Sábado" 
+    
+    when(diaSemana){
+        "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira",
+        "Sexta-feira" -> {println("Dia útil, seja produtivo!")}
+        "Sábado", "Domingo" -> {println("Final de semana ☺")}
+        else -> {println("Dia inexistente, dia inútil ♥")}
+    }
+    
+}
+//-----------------------------------------------------------------------------------------------------------------
