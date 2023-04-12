@@ -601,3 +601,67 @@ fun main() {
     
 }
 //-----------------------------------------------------------------------------------------------------------------
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    
+    // Laços de repetição - Loops 
+    // 
+    // repeat - repita
+    // while - enquanto
+    // do..while - faça..enquanto
+    // for - para 
+    // 
+    //repeat - repita
+    //vai repetir uma determinada ação uma determinada quantidade de vezes 
+    //
+    //Estrutura do repeat 
+    //
+    // repeat(númeroVezes){
+    // ação
+    // } 
+    // 
+    repeat(8){
+        println("Isso é um teste, testando, testando")
+    } 
+    
+    // Exercício -> faça um programa com auxilio de uma variavel contador,
+    // no qual nela será acrescentado 1 a cada repetição,
+    // até que dê a quantidade de vezes decidida 
+    /*
+    var contador = 0 
+    repeat(10){
+        println(contador++)
+    }
+    */ 
+    //Laço while - enquanto 
+    //
+    // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+	// Estrutura do while 
+	// 
+	// while(condição){
+	// ação
+	// } 
+	var contador = 0
+    while(contador < 10){
+        println(contador++)
+    } 
+    
+    //Exercício -> Simulador de Bateria de celular
+    // faça um programa com while que mostre s bateria 100% diminuindo. 
+    // Quando ela chegar no 15, deve mostrar a mesnsagem pedindo para 
+    // conectar o carrgador, e quando chegar a 0, deve mostrar a mesnsagem
+    // aparelho desligando
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+//**************************************************************************************************************
