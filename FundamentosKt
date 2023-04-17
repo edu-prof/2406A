@@ -665,3 +665,79 @@ fun main() {
     
 }
 //**************************************************************************************************************
+fun main() {
+    
+    
+    //Exercício -> Simulador de Bateria de celular
+    // faça um programa com while que mostre a bateria do celular 100% diminuindo. 
+    // Quando ela chegar no 15, deve mostrar a mesnsagem pedindo para 
+    // conectar o carrgador, e quando chegar a 0, deve mostrar a mesnsagem
+    // aparelho desligando
+    
+    /*
+    var bateria = 100 
+    
+    while(bateria >= 0){
+        println("$bateria%")
+        
+        when(bateria){
+            15 -> {println("Aparelho descarregando, conecte no carregador!")}
+            0 -> {println("Aparelho Desligando!")}
+        }
+        bateria--
+        
+    }
+    */
+    // while -> ENQUANTO uma determinada condição for verdadeira, uma determinada ação será 
+    // executada
+    /*
+    var contador = 0
+    while(contador > 10){
+        println(contador++)
+    } 
+    */
+    // do..while 
+    // 
+    // uma determinada ação será executada, ENQUANTO uma determinada condição for
+    // verdadeira
+    
+    //Estrutura: 
+    //
+    // do{
+    // ação
+    // }while(condição) 
+    /*
+    var contador = 0
+    
+    do{
+        println(contador++)
+    }while(contador > 10) 
+    */ 
+    
+    // for - para...  
+    // 
+    // PARA cada item em um interválo ou colection, uma determinada ação será executada 
+    // Estrutura:
+    // 
+    // for(vAuxiliar in inteválo ou colection){
+    // ação
+    // } 
+    // 
+    
+    for(pneu in 1..4){
+        println("$pneu")
+    } 
+    
+   // Exercício -> Faça uma tabuada até o décimo multiplo de um número escolhido, 
+   // utilizando o laço for 
+   // em excessão as tabuadas do 0, 1 e 2
+    
+    
+    
+    
+    
+    
+    
+    
+}
+//--------------------------------------------------------------------------------------------------------------
