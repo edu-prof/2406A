@@ -850,3 +850,47 @@ fun main() {
     
 }
 //*********************************************************************************************************************************************************
+
+fun main() {
+    
+    // Obs. listOf() -> imutável 
+    // Próxima aula... mutableListOf()
+    // mutableListOf() --> armazena qualquer tipo de valores conjuntos
+    // mutableListOf<tipoDeValor> -> armazena valores especificos de seu tipo 
+    // 
+    var comida = mutableListOf<String>("Strogonoff", "Patê de Frango", "Lasagna", "Feijoada") 
+    
+    println(comida)
+    
+    // Propriedades 
+    // 
+    comida.add("Macarrão") //adiciona um valor a lista
+    println(comida)
+    comida.add(0, "Cuscuz") //adiciona um valor a um index em específico na lista
+    println(comida)
+    comida.remove("Patê de Frango") //remove um valor em específico da lista
+    println(comida)
+    comida.removeAt(0) // remove um valor de um index em específico
+    println(comida)
+    comida.set(2, "Pastel de Carne Seca") // substitui um valor pelo seu index
+    println(comida) 
+    comida.clear() // remover todos os valores da lista
+    println(comida)
+    
+    // Exercício -> A cada mês do ano, em uma turma de 5 alunos, entra um aluno novo
+    // .crie a lista inicial de alunos da turma
+    // .a cada mes adicione um novo aluno (em linhas diferentes)
+    // .e 2 meses do ano, 2 alunos foram transferidos 
+    // da turma (dica: em meses diferentes)
+    // .e em 2 meses do ano, 2 alunos foram substituidos por 
+    // outros dois alunos(dica: em meses diferentes)
+    // 
+    // Exiba a lista de alunos respectiva de cada mes do ano
+    // dica(interpretação de texto)
+
+    
+    
+} 
+
+
+//=========================================================================================================================================================
